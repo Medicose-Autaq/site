@@ -111,7 +111,7 @@ color: black;
 
 }
 #wards1{
-  min-width: 170px;
+  /* min-width: 15vh; */
   /* top: -35vh; */
   left: 8vh;
   width: 14%;
@@ -150,7 +150,7 @@ color: black;
 
 }
 #wards{ 
-  min-width: 170px;
+  /* min-width: 15vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,8 +533,8 @@ main h2 {
     margin-left: 10vh;
   }
   #wards,#wards1{
-    min-width: 240px;
-    height: 20vh;
+    min-width: 30vh;
+    height: 30vh;
     left: -5vh;
   }
    #wards img{
@@ -675,12 +675,12 @@ margin-left: 18px;
 
 @media screen and (max-width:600px) {
   #wards, #wards1 {
-    width: 67%;
+    width: 6%;
     
   }
   #wards1,#wards{
-    height: 27vh;
-    width: 22vh;
+    height: 30vh;
+    width: 30vh;
     
   }
   #wards1 img,#wards img{
@@ -697,13 +697,13 @@ margin-left: 18px;
     margin-top: 30vh;
     left: 11vh;
 
-    top: -34vh;
+    top: -36vh;
   }
   #wards1{
     margin: 0;
     margin-top: 30vh;
     left: 11vh;
-    top: -34vh;
+    top: -36vh;
   }
 }
 @media screen and (max-width:600px) {
