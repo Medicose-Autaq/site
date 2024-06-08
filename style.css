@@ -522,8 +522,8 @@ main h2 {
 }
 .ham{
   font-size: 25px;
-  width: 50px;
-  border-radius: 50px;
+  width: 40px;
+  border-radius: 100px;
   background-color: gray;
   color: white;
 
@@ -593,7 +593,13 @@ margin-left: 12px;
  .image3{
   top: 10px;
  }
-
+ .topb{
+  width: 4rem;
+ }
+ .ham{
+  width: 50px;
+ border-radius: 100px;
+ }
 } 
 
 
