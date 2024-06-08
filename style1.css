@@ -14,6 +14,7 @@ body{
  flex-wrap: wrap;
 }
 .cont{
+  min-width: 380px;
   display: flex;
   flex-direction: column;
 }
@@ -192,6 +193,35 @@ body{
 }
 .page{
   position: relative; width: 65%; float: left; margin-bottom: 110px; margin-top: 5vh;
+}
+@media screen and (max-width:1050px) {
+  .page{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+  }
+  .cont h2{
+    text-align: center;
+  }
+  .cont p{
+    margin-left: 20px;
+  }
+  .main{
+    margin-left: 100px;
+  }
+  .second{
+    margin-left: 60px;
+  }
+  .down{
+    flex-wrap: wrap;
+  }
+  .mainimg{
+    top: -200px;
+    width: 68vh;
+    /* height: 50vh; */
+    /* margin-left: 10vh; */
+  }
+
 }
 @media screen and (max-width:600px) {
   .mainimg{
