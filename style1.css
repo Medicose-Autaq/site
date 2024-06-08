@@ -19,6 +19,7 @@ body{
   flex-direction: column;
 }
 .cont h2{
+
   margin-top: 30px;
   padding-right: 30px;
   font-size: 60px;
@@ -311,10 +312,10 @@ body{
 }
 @media screen and (max-width:380px) {
   .mainimg{
-    width: 375px;
-    height: 50vh;
-    /* margin-left: 20px; */
-    top: 30px;
+    width: 360px;
+    height: 45vh;
+    margin-left: 0px;
+    top: 20px;
   }
   .divs1,.div{
     width: 100px;
@@ -333,17 +334,20 @@ body{
  }
  .cont{
   display: flex;
-  width: 100%;
+  min-width: 330px;
   justify-content: center;
   /* margin-left: 10px; */
  }
  .cont h2{
+  width: 358px;
    text-align: center;
    margin-top: 0;
    padding: 0;
  }
  .cont p{
- padding-right: 10px;
+  width: 330px;
+
+ padding-right: 0px;
   margin-bottom: 20px;
   margin-left: 15px;
   /* font-weight: bold; */
