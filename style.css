@@ -362,10 +362,11 @@ main h2 {
   width: 33%;
   float: left;
   display: flex;
+  background-color: #A0ECD0;
   background: linear-gradient(
    125deg,
-    #0f4b54 30%,
-    rgb(0, 0, 0)
+    /* white 30%, */
+    #A0ECD0
     
   )
   ;
@@ -397,12 +398,13 @@ main h2 {
   width: 31%;
   float: left;
   display: flex;
-  background: linear-gradient(
+  background-color: #A0ECD0;
+  /* background: linear-gradient(
     125deg,
      #0f4b54 30%,
      rgb(0, 0, 0)
      
-   );
+   ); */
   
   height: fit-content;
   border-radius: 10px;
@@ -548,7 +550,7 @@ main h2 {
   font-size: 20px;
   margin-top: 10px;
   background-color: transparent;
-  color: white;
+
 }
 .botn{
   font-family: sans-serif;
