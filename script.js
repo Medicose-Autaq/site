@@ -167,8 +167,21 @@ topb.addEventListener('click',()=>{
 
     }
 }
-
 )
+function downloadFile() {
+  // Create an anchor element
+  var downloadLink = document.createElement("a");
+  // Set the href attribute to the file you want to download
+  downloadLink.href = "4th Year MBBS Wards TOPICS @ShaeZi.pdf"; // Replace "path_to_your_file" with the actual path to your file
+  // Set the download attribute to specify the filename
+  downloadLink.download = "4th Year MBBS Wards TOPICS @ShaeZi.pdf"; // Replace "filename.ext" with the desired filename and extension
+  // Append the anchor element to the body
+  document.body.appendChild(downloadLink);
+  // Trigger a click event on the anchor element
+  downloadLink.click();
+  // Remove the anchor element from the DOM
+  document.body.removeChild(downloadLink);
+}
 en1(),en2(),  en3(), en4(), en5(), en6(), en7(),en8(),en9(),en10(),en11(),en12(),en13()
 
 
