@@ -390,8 +390,27 @@ main h2 {
 .divs{
   display: flex;
   justify-content: center;
+  align-items: center;
    flex-wrap: wrap;
     width:300px;
+   
+}
+.download{
+  height: 50px;
+  width: 50px;;
+  border-radius: 200px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  z-index: 3;
+  box-shadow:  2px 2px 4px rgb(0,0,0,0.6 );
+  font-size: 20px;
+  transition: 0.3s;
+}
+.download:hover{
+  background-color: black;
+  color: white;
+  transform: translateY(5px);
 }
 .move{
 
@@ -405,7 +424,7 @@ main h2 {
   font-weight: bold;
   font-style: italic;
   height: 50px;
-  width: 300px;
+  width: 200px;
   margin: 5px;
   cursor: pointer;
   text-align: center;
@@ -484,7 +503,7 @@ main h2 {
   background-color: black;
   /* text-decoration: underline; */
   font-size: 30px;
-  color: white;
+  color: rgb(202, 200, 200);
   /* border: 1px solid black; */
   border: none;
   border-bottom: 1px solid white;
@@ -519,6 +538,7 @@ main h2 {
 }
 #menu{
   margin-top: 1px; opacity: 0.9; top: 10vh; left: -10vh; width: 100%; height: 400px; display: flex; flex-direction: column; gap: 30px; justify-content: center; align-items: center; background-color: black;
+
 }
 .ham{
   font-size: 25px;
