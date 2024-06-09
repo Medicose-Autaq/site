@@ -433,7 +433,7 @@ main h2 {
   font-size: 19px;
   font-weight: bold;
   font-style: italic;
-  color: yellow;
+ 
   text-decoration: underline;
   height: 50px;
   width: 60px;
@@ -445,7 +445,7 @@ main h2 {
   /* border: 3px solid black;
   box-shadow:  3px 4px 4px rgb(0,0,0,0.6 );
   border-radius: 6px; */
-  background-color: #FF0054;
+  background-color: transparent;
   /* transform: translatey(-10px); */
   transition: all 0.3s;
   display: none;
@@ -469,7 +469,7 @@ main h2 {
   justify-content: center;
   align-items: center;
    flex-wrap: wrap;
-    width:400px;
+    width:300px;
    
 }
 .download{
