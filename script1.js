@@ -142,7 +142,187 @@ these features relate to ?`,
 
   ]
 
-}
+},
+{question : '"cheiloschisis" is the medical term used for ',
+   
+    answers: [ {Text:'Cleft Lip' ,correct:true},
+    {Text: 'Cleft palate'},
+    {Text: 'Tongue Tie'},
+    {Text: 'Iron Deficiency Anemia'},
+    {Text: 'Bifid Uvula'}]}
+
+,
+{question : 'Which of the following is true about functional aphonia ?
+
+    answers: [ {Text:'Usually seen in old age males'},
+    {Text: 'Occurs after laryngeal infection'},
+    {Text: 'Both vocal cords are in mid line'},
+    {Text: 'Does not meet on coughing'},
+    {Text: 'Does not approximate on phonation' ,correct:true}]}
+
+,
+{question : 'Malignant otitis externa is common in ?',
+    
+    answers: [ {Text:'New born babies'},
+    {Text: 'Hypertensive patients'},
+    {Text: 'Diabetic patients' ,correct:true},
+    { Text: 'Patient with meniere's disease'},
+    {Text: 'Patient with otomycosis'}]}
+
+,
+{question : 'Which of the following is related with nasopharyngeal Angiofibroma ?',
+   
+    answers: [ {Text:'Common in females'},
+    {Text: 'Encapsulated'},
+    {Text: 'Does not cause bone erosion'},
+    {Text: 'Benign tumor' ,correct:true},
+    {Text: 'Metastasis occur in cervical lymph nodes'}]}
+
+,
+{question : 'Positive laryngeal crepitos is observed during neck examination in ?',
+    
+    answers: [ {Text:'Laryngeal oedema'},
+    {Text: 'Post cricoid carcinoma'},
+    {Text: 'Normal person' ,correct:true},
+    {Text: 'Prevertebral abscess'},
+    {Text: 'Retropharyngeal abscess'}]}
+
+,
+{question : 'Cart wheel appearance of tympanic membrane is seen in ?',
+    
+    answers: [ {Text:'Otitis media with effusion'},
+    {Text: 'Attico antral type of chronic supprative otitis media'},
+    {Text: 'Acute supprative otitis media' ,correct:true},
+    {Text: 'Tubo tympanic type of chronic supprative otitis media'},
+    {Text: 'Aero otitis'}]}
+
+,
+{question : ' Surgical treatment of glue ear is ?',
+    
+    answers: [ {Text:'Myringoplasty'},
+    {Text: 'Myringotomy' ,correct:true},
+    {Text: 'Cortical mastoidectomy'},
+    {Text: 'Radical mastoidectomy'},
+    {Text: 'Modified radical mastoidectomy'}]}
+
+,
+{question : ' Common complication of nasal polypectomy is ?',
+    
+    answers: [ {Text:'Infection',correct:true},
+    {Text: 'Septal perforation'},
+    {Text: 'Adhesion formation'},
+    {Text: 'Septal abscess'},
+    {Text: 'Septal haematoma'}]}
+
+,
+{question : 'Most appropriate test for allergic rhinitis is ?',
+    
+    answers: [ {Text:'skin prick test'},
+    {Text: 'Radio alergosorbent test'},
+    {Text: 'Serum IgE level'},
+    {Text: 'Eosinophil count in blood'},
+    {Text: 'Eosinophil count in nasal smear' ,correct:true}]}
+
+,
+{question : 'Which carcinoma of larynx has low tendency to lymphatic spread ?',
+    
+    answers: [ {Text:'Arytenoids'},
+    {Text: 'vocal cords' ,correct:true},
+    {Text: 'Vestibular folds'},
+    {Text: 'Pyriform fossa'},
+    {Text: 'Epiglottis'}]}
+
+,
+{question : 'Which of the following drugs causes rhinitis medica mentosa ?',
+    
+    answers: [ {Text:'Intra nasal steroids'},
+    {Text: 'Antihistamine'},
+    {Text: 'Mast cell Stabilizers'},
+    {Text: 'Lignocaine spray'},
+    {Text: 'Xylometazoline' ,correct:true}}
+
+,
+{question : 'Most common features of vocal cord nodule is ?',
+    
+    answers: [ {Text:'Respiratory distress'},
+    {Text: ' Hoarsness of voice' ,correct:true},
+    {Text: ' Stridor'},
+    {Text: ' Pain in neck'},
+    {Text: 'Dysphagia'}}
+
+,
+{question : 'Young girl attends to ENT ward with complaint of persistent nasal discharge, recurrent nose bleeds, along with nose anosmia. On examination nasal cavity is widened with green dry crust. She is a case of one of the following ?',
+    
+    answers: [ {Text:'Chronic hypertrophic rhinitis'},
+    {Text: 'Lupus valgaris'},
+    {Text: 'Atrophic rhinitis' ,correct:true},
+    {Text: 'Nasal myiasis'},
+    {Text: 'Mucormycosis'}}
+
+,
+{question : 'Regarding external auditory canal which one is correct ?',
+    
+    answers: [ {Text:'outer one third is cartilagenous' ,correct:true},
+    {Text: 'Outer one third is bony'},
+    {Text: 'Inner two third is cartilagenous'},
+    {Text: 'Hair follicles are present in both part '},
+    {Text: 'Hair follicles are present in bony part'}}
+
+,
+{question : 'Granulation tissue in external auditory canal is seen in ?',
+    
+    answers: [ {Text:'Diffuse otitis externa'},
+    {Text: 'Acute supprative otitis media'},
+    {Text: 'Atticoantral type of chronic supprative otitis media' ,correct:true},
+    {Text: 'Tubo tympanic type of chronic supprative otitis media'},
+    {Text: 'Serous otitis media'}}
+
+,
+{question : 'Ideally tracheotectomy incision is given at ?',
+    
+    answers: [ {Text:'Above 1st tracheal ring'},
+    {Text: 'Between 1st & 2nd tracheal ring'},
+    {Text: 'Between 2nd & 4th tracheal ring ' ,correct:true},
+    {Text: 'Between 4th & 5th tracheal ring'},
+    {Text: 'Below 5th tracheal ring'}}
+
+,
+{question : 'Cholesteastoma is a feature of ?',
+    
+    answers: [ {Text:'Secondary otitis media'},
+    {Text: 'Malignant otitis externa'},
+    {Text: 'Tubo tympanic type of chronic supprative otitis media'},
+    {Text: 'Atticoantral type of chronic supprative otitis media' ,correct:true},
+    {Text: 'Aero otitis'}}
+
+,
+{question : 'Common site of foreign body impaction in oesophagus is ?',
+    
+    answers: [ {Text:'where oesophagus is crossed by left bronchus'},
+    {Text: 'Where oesophagus is crossed by arch of aorta '},
+    {Text: 'Cricopharynx' ,correct:true},
+    {Text: 'where oesophagus pierces the diaphragm'},
+    {Text: 'Gastro oesophageal junction'}}
+
+,
+{question : 'The microorganism causing fruncle of external auditory canal ?',
+    
+    answers: [ {Text:'Streptococcus pyogens'},
+    {Text: 'Staphylococcus epidermis'},
+    {Text: 'Staphylococcus aureus' ,correct:true},
+    {Text: 'Beta A hemolyticus streptococci'},
+    {Text: 'Pseudomonas'}}
+
+,
+{question : 'Promontary is present in ?',
+    
+    answers: [ {Text:'Anterior wall of middle ear'},
+    {Text: 'Posterior wall of middle ear'},
+    {Text: 'Lateral wall of middle ear'},
+    {Text: 'Medial wall of middle ear' ,correct:true},
+    {Text: 'Floor of the middle ear'}}
+
+
 ]
 
 const question = document.getElementById('question')
