@@ -9,23 +9,45 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   background-color: #A0ECD0;
-  /* background: linear-gradient(135deg ,#14213D, #000000); */
+  /* background: linear-gradient(135deg ,#14213D, 
+  #000000); */
   /* background-color:  #14213D; */
 
 }
-.header{
+nav{
   box-shadow: 0px 6px 10px rgb(0,0,0, 0.8);
 
-  padding-left: 20px;
+  /* padding-left: 10px; */
   display: flex;
 
   align-items: center;
-  height: 11vh;
+  /* height: 11vh; */
+  height: 13vh;
+
   overflow: hidden;
-  width: 95%;
+  width: 100%;
   background-color: #0f4b54;
 }
+nav button{
+  background-color: #0f4b54;
+  font-size: 25px;
+  position: absolute;
+  border: none;
+
+
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  right: 30px;
+  top: 20px;
+  
+  cursor: pointer;
+}
+
+
+
 .logo{
   /* border-right: 3px solid black;
   border-left: 3px solid black;
@@ -36,14 +58,14 @@ body{
   align-items: center; */
   /* margin-top: 5px;
   margin-left: 15px; */
-  height: 60px;
+  height: 50px;
   padding:10px;
   box-shadow: 5px 4px 6px rgb(0,0,0, 0.6);
 
   /* padding-right: 20px; */
   font-size: 40px;
   /* font-weight: bold; */
-  font-family: 'whisper',cursive !important;
+  font-family: 'whisper';
   font-weight: bold;
   /* text-align: center;
   font-family: arial; */
@@ -51,8 +73,8 @@ body{
   color: white;
   border-radius: 50px;
   /* border: 2px solid white; */
-  width:16%;
-  
+  width: 50px;;
+  margin-left: 10px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -62,16 +84,18 @@ body{
 
 }
 .foot{
-  display: flex;
-  height: 7vh;
+  /* align-self: flex-end;
+  display: flex; */
+  height: 60px;
   width: 100%;
+  /* height: 100%; */
   background-color: black;
   margin-top: 7vh;
 }
 main{
   display: flex;
   /* height: 100vh; */
-  width: 90%;
+  width: 50%;
   /* background: linear-gradient(135deg ,#14213D, #000000); */
   justify-content: center;
   padding-top: 22px;
@@ -94,7 +118,8 @@ position: relative;
   
 }
 #start{
-  width: 85px;
+  width: 110px;
+  font-size: 18px;
   height: 35px;
   background-color: #0f4b54;
   border: none;
@@ -184,7 +209,7 @@ img{
   display: flex;
   position: absolute;
   height: 30vh;
-  width: 90%;
+  width: 50%;
   transform: translate(-50%, -50% )scale(0.1);
   top: 10%;
   left: 50%;
@@ -235,16 +260,20 @@ h1{
   display: flex;
   justify-content: center;
   /* flex-direction: column; */
+  font-size: 16px;
   align-items: center;
-  padding-left: 10px;
+  
   flex-wrap: wrap;
   cursor: pointer;
   background-color: white;
   border: 1px solid black; 
   width: 90%;
-  height: 5vh;
+  height: 6vh;
+
+  padding: 5px;
+  padding-left: 5px;
   border-radius: 4px;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
  font-weight: bold;
 
 }
@@ -312,4 +341,23 @@ h1{
   border-radius: 3px;
   cursor: pointer;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width:600px) {
+  .btns{
+    height: fit-content;
+  }
+  main, .popup{
+    width: 90%;
+  }
+  nav{
+    height: 11vh;
+  }
+  nav button{
+    top: 30px;
+  }
+}
+@media screen and (max-width:380px) {
+  nav button{
+    top: 25px;
+  }
 }
