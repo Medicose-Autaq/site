@@ -154,7 +154,7 @@ these features relate to ?`,
 ,
 {question : 'Which of the following is true about functional aphonia ?
 
-    answers: [ {Text:'Usually seen in old age males'},
+    answers: [ {Text:' Usually seen old age males'},
     {Text: 'Occurs after laryngeal infection'},
     {Text: 'Both vocal cords are in mid line'},
     {Text: 'Does not meet on coughing'},
