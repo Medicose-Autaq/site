@@ -16,7 +16,9 @@ body{
 a{
   text-decoration: none;
 }
-
+.v1 a{
+  margin-left: 20px;
+}
 .body{
   font-family: "poppins", sans-serif ;
 
