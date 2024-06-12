@@ -152,9 +152,10 @@ these features relate to ?`,
     {Text: 'Bifid Uvula'}]}
 
 ,
-{question : 'Which of the following is true about functional aphonia ?
+{question : 'Which of the following is true about functional aphonia ?',
 
-    answers: [{Text: 'Occurs after laryngeal infection'},
+    answers: [{Text: 'Usually occurs in old age'},
+      {Text: 'Occurs after laryngeal infection'},
     {Text: 'Both vocal cords are in mid line'},
     {Text: 'Does not meet on coughing'},
     {Text: 'Does not approximate on phonation' ,correct:true}]}
@@ -165,7 +166,7 @@ these features relate to ?`,
     answers: [ {Text:'New born babies'},
     {Text: 'Hypertensive patients'},
     {Text: 'Diabetic patients' ,correct:true},
-    { Text: 'Patient with meniere's disease'},
+    { Text: `Patient with meniere's disease`},
     {Text: 'Patient with otomycosis'}]}
 
 ,
@@ -238,7 +239,7 @@ these features relate to ?`,
     {Text: 'Antihistamine'},
     {Text: 'Mast cell Stabilizers'},
     {Text: 'Lignocaine spray'},
-    {Text: 'Xylometazoline' ,correct:true}}
+    {Text: 'Xylometazoline' ,correct:true}]}
 
 ,
 {question : 'Most common features of vocal cord nodule is ?',
@@ -247,7 +248,7 @@ these features relate to ?`,
     {Text: ' Hoarsness of voice' ,correct:true},
     {Text: ' Stridor'},
     {Text: ' Pain in neck'},
-    {Text: 'Dysphagia'}}
+    {Text: 'Dysphagia'}]}
 
 ,
 {question : 'Young girl attends to ENT ward with complaint of persistent nasal discharge, recurrent nose bleeds, along with nose anosmia. On examination nasal cavity is widened with green dry crust. She is a case of one of the following ?',
@@ -256,7 +257,7 @@ these features relate to ?`,
     {Text: 'Lupus valgaris'},
     {Text: 'Atrophic rhinitis' ,correct:true},
     {Text: 'Nasal myiasis'},
-    {Text: 'Mucormycosis'}}
+    {Text: 'Mucormycosis'}]}
 
 ,
 {question : 'Regarding external auditory canal which one is correct ?',
@@ -265,7 +266,7 @@ these features relate to ?`,
     {Text: 'Outer one third is bony'},
     {Text: 'Inner two third is cartilagenous'},
     {Text: 'Hair follicles are present in both part '},
-    {Text: 'Hair follicles are present in bony part'}}
+    {Text: 'Hair follicles are present in bony part'}]}
 
 ,
 {question : 'Granulation tissue in external auditory canal is seen in ?',
@@ -274,7 +275,7 @@ these features relate to ?`,
     {Text: 'Acute supprative otitis media'},
     {Text: 'Atticoantral type of chronic supprative otitis media' ,correct:true},
     {Text: 'Tubo tympanic type of chronic supprative otitis media'},
-    {Text: 'Serous otitis media'}}
+    {Text: 'Serous otitis media'}]}
 
 ,
 {question : 'Ideally tracheotectomy incision is given at ?',
@@ -283,7 +284,7 @@ these features relate to ?`,
     {Text: 'Between 1st & 2nd tracheal ring'},
     {Text: 'Between 2nd & 4th tracheal ring ' ,correct:true},
     {Text: 'Between 4th & 5th tracheal ring'},
-    {Text: 'Below 5th tracheal ring'}}
+    {Text: 'Below 5th tracheal ring'}]}
 
 ,
 {question : 'Cholesteastoma is a feature of ?',
@@ -292,7 +293,7 @@ these features relate to ?`,
     {Text: 'Malignant otitis externa'},
     {Text: 'Tubo tympanic type of chronic supprative otitis media'},
     {Text: 'Atticoantral type of chronic supprative otitis media' ,correct:true},
-    {Text: 'Aero otitis'}}
+    {Text: 'Aero otitis'}]}
 
 ,
 {question : 'Common site of foreign body impaction in oesophagus is ?',
@@ -301,7 +302,7 @@ these features relate to ?`,
     {Text: 'Where oesophagus is crossed by arch of aorta '},
     {Text: 'Cricopharynx' ,correct:true},
     {Text: 'where oesophagus pierces the diaphragm'},
-    {Text: 'Gastro oesophageal junction'}}
+    {Text: 'Gastro oesophageal junction'}]}
 
 ,
 {question : 'The microorganism causing fruncle of external auditory canal ?',
@@ -310,7 +311,7 @@ these features relate to ?`,
     {Text: 'Staphylococcus epidermis'},
     {Text: 'Staphylococcus aureus' ,correct:true},
     {Text: 'Beta A hemolyticus streptococci'},
-    {Text: 'Pseudomonas'}}
+    {Text: 'Pseudomonas'}]}
 
 ,
 {question : 'Promontary is present in ?',
@@ -319,7 +320,7 @@ these features relate to ?`,
     {Text: 'Posterior wall of middle ear'},
     {Text: 'Lateral wall of middle ear'},
     {Text: 'Medial wall of middle ear' ,correct:true},
-    {Text: 'Floor of the middle ear'}}
+    {Text: 'Floor of the middle ear'}]}
 
 
 ]
