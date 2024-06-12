@@ -6,11 +6,15 @@
 
 }
 body{
+  /* background-color: blue */
 ;
   /* background-color: #D2D0BA; */
   /* background-color: #D6D4A0;
    */
    /* background-color: wheat; */
+}
+.v1 a{
+  margin-left: 20px;
 }
 a{
   text-decoration: none;
@@ -121,7 +125,9 @@ color: black;
 #wards1{
   /* min-width: 15vh; */
   /* top: -35vh; */
-  left: 8vh;
+  /* left: 8vh; */
+  right: 5vh;
+  top: 5vh;
   width: 14%;
   
   /* width: 100%; */
@@ -147,10 +153,12 @@ color: black;
 
 }
 #wards img{
+  filter: saturate(1);
   /* top: -10px; */
   position: absolute;
-  z-index: -2;
+  /* z-index: 2; */
   height: 300px; width: 400px;
+  mix-blend-mode: multiply;
   /* opacity: 0.8;
   background-image: linear-gradient(
     to right,
@@ -170,18 +178,20 @@ color: black;
 
     )  ; */
     margin-right: 60px;
-    margin-left: 40px;
+    margin-left: 90px;
+    top: -15vh;
   /* height:22vh; width: 22vh; */
    /* margin: 20px;
    margin-left: 30px;
     margin-bottom: 10px;
      margin-top: 30px; */
+   
 }
 #wards1 img{
   position: absolute;
   z-index: -2;
   height: 350px; width: 410px;
- 
+  
     
     margin-right: 60px;
     margin-left: 40px;
@@ -197,9 +207,11 @@ color: black;
   position: absolute;
  width: 14%;
   float: left;
+  /* background-color: black; */
   height: 30vh;
   /* position: absolute; */
   /* display: flex;
+  
   justify-content: center; */
   /* border: 2px solid black; */
     border-radius: 200px;
@@ -208,8 +220,8 @@ color: black;
     margin-top: 50px;
     /* box-shadow: 6px 6px 6px rgb(0,0,0, 0.8); */
     /* flex-shrink: 0; */
-   z-index: 1;
-
+   /* z-index: -1; */
+  mix-blend-mode: multiply;
 }
 #study h2{
   font-size: 40px;
@@ -433,7 +445,6 @@ main h2 {
   font-size: 19px;
   font-weight: bold;
   font-style: italic;
- 
   text-decoration: underline;
   height: 50px;
   width: 60px;
@@ -605,21 +616,40 @@ main h2 {
 
 }
 @media screen and (max-width:1050px){
+  #foot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+  }
   #study{
+    width: 40%;
+    margin: 0;
+    margin-left: 400px;
+    margin-right: 70px;
+    margin-bottom: 10vh;
+    /* margin-top: 20vh; */
+    height: fit-content;
+    /* display: block; */
+    /* border-top: none; */
+    padding-top: 20px;
+    padding-left: 15px;
     margin-left: 10vh;
   }
   #wards,#wards1{
+    top: 20vh;
     min-width: 30vh;
     height: 30vh;
-    left: -5vh;
+    left: -3vh;
   }
    #wards img{
-    height: 15vh;
-    width: 15vh;
+
+    height: 100;
+    /* width: 15vh; */
     
   }
   #wards1 img{
-    height: 15vh;
+    height: 25vh;
     width: 15vh;
     
   }
@@ -692,7 +722,7 @@ main p,h2{
   
   margin: 0;
   margin-left: 15px;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
   margin-top: 20vh;
   height: fit-content;
   /* display: block; */
@@ -768,10 +798,10 @@ margin-left: 18px;
   #wards1 img,#wards img{
     position: absolute;
     z-index: -2;
-    height: 350px; width: 350px;
-   
+    height: 350px; width: 370px;
+    margin-left: 0px;
       /* margin-top: 100px; */
-      margin-right: 60px;
+      margin-right: 40px;
       /* margin-left: 40px; */
   }
    /* #wards {
@@ -784,13 +814,36 @@ margin-left: 18px;
     margin-top: 30vh;
     left: 11vh;
 
-    top: -41vh;
+    top: -36vh;
   }
   #wards1{
     margin: 0;
     margin-top: 30vh;
     left: 11vh;
     top: -36vh;
+  }
+}
+
+@media screen and (max-width:380px) {
+  #wards1 img,#wards img{
+    position: absolute;
+    z-index: -2;
+    height: 350px; width: 370px;
+    margin-left: 40px;
+      /* margin-top: 100px; */
+      /* margin-right: 40px; */
+      /* margin-left: 40px; */
+  }
+}
+@media screen and (max-width:370px) {
+  #wards1 img,#wards img{
+    position: absolute;
+    z-index: -2;
+    height: 350px; width: 350px;
+    margin-left: 20px;
+      /* margin-top: 100px; */
+      /* margin-right: 40px; */
+      /* margin-left: 40px; */
   }
 }
 @media screen and (max-width:600px) {
