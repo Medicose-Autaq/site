@@ -13,9 +13,6 @@ body{
    */
    /* background-color: wheat; */
 }
-.v1 a{
-  margin-left: 20px;
-}
 a{
   text-decoration: none;
 }
@@ -125,9 +122,7 @@ color: black;
 #wards1{
   /* min-width: 15vh; */
   /* top: -35vh; */
-  /* left: 8vh; */
-  right: 5vh;
-  top: 5vh;
+  left: 8vh;
   width: 14%;
   
   /* width: 100%; */
@@ -178,8 +173,7 @@ color: black;
 
     )  ; */
     margin-right: 60px;
-    margin-left: 90px;
-    top: -15vh;
+    margin-left: 40px;
   /* height:22vh; width: 22vh; */
    /* margin: 20px;
    margin-left: 30px;
@@ -191,7 +185,7 @@ color: black;
   position: absolute;
   z-index: -2;
   height: 350px; width: 410px;
-  
+ 
     
     margin-right: 60px;
     margin-left: 40px;
@@ -616,40 +610,21 @@ main h2 {
 
 }
 @media screen and (max-width:1050px){
-  #foot{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: fit-content;
-  }
   #study{
-    width: 40%;
-    margin: 0;
-    margin-left: 400px;
-    margin-right: 70px;
-    margin-bottom: 10vh;
-    /* margin-top: 20vh; */
-    height: fit-content;
-    /* display: block; */
-    /* border-top: none; */
-    padding-top: 20px;
-    padding-left: 15px;
     margin-left: 10vh;
   }
   #wards,#wards1{
-    top: 20vh;
     min-width: 30vh;
     height: 30vh;
-    left: -3vh;
+    left: -5vh;
   }
    #wards img{
-
-    height: 100;
-    /* width: 15vh; */
+    height: 15vh;
+    width: 15vh;
     
   }
   #wards1 img{
-    height: 25vh;
+    height: 15vh;
     width: 15vh;
     
   }
