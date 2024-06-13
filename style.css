@@ -16,7 +16,11 @@ body{
 a{
   text-decoration: none;
 }
+.v1{
+  font-size: 18px;
+}
 .v1 a{
+  font-weight: bold;
   margin-left: 20px;
 }
 .body{
