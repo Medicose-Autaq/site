@@ -358,7 +358,7 @@ h1{
     height: 9vh;
   }
   nav button{
-    top: 28px;
+    top: 22px;
   }
 }
 @media screen and (max-width:400px) {
@@ -388,6 +388,6 @@ h1{
     height: 10vh;
   }
   nav button{
-    top: 19px;
+    top: 17px;
   }
 }
