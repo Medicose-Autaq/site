@@ -21,12 +21,15 @@ nav{
 
   /* padding-left: 10px; */
   display: flex;
+  /* border-radius: 44%5%50%; */
 
   align-items: center;
   /* height: 11vh; */
-  height: 13vh;
-
+  height: 15vh;
+ 
+ /* transform: rotate(-3deg); */
   overflow: hidden;
+  /* width: 380px; */
   width: 100%;
   background-color: rgb(35, 35, 35);
 }
@@ -36,7 +39,8 @@ nav button{
   position: absolute;
   border: none;
 
-
+  /* transform: rotate(3deg); */
+ /* transform: translatey(-6px); */
   color: white;
   font-weight: bold;
   text-decoration: underline;
@@ -46,9 +50,9 @@ nav button{
   cursor: pointer;
 }
 
+ .logo{
 
-
-.logo{
+  /* transform: translatey(15px); */
   /* border-right: 3px solid black;
   border-left: 3px solid black;
   border-radius: 7px;
@@ -355,10 +359,20 @@ h1{
     width: 90%;
   }
   nav{
-    height: 9vh;
+    height: 10vh;
+    border-radius: 55%5%;
+    margin-top: 10px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    width: 410px;
   }
   nav button{
+    transform: translateY(-6px);
     top: 22px;
+  }
+  .logo{
+    transform: translateY(15px);
+  
   }
 }
 @media screen and (max-width:400px) {
@@ -369,7 +383,8 @@ h1{
     width: 90%;
   }
   nav{
-    height: 9vh;
+    height: 10vh;
+    width: 380px;
   }
   nav button{
     top: 18px;
@@ -377,7 +392,7 @@ h1{
 }
 @media screen and (max-width:380px) {
   nav{
-    height: 10vh;
+    height: 12vh;
   }
   nav button{
     top: 15px;
@@ -385,7 +400,7 @@ h1{
 }
 @media screen and (max-width:370px) {
   nav{
-    height: 10vh;
+    height: 11vh;
   }
   nav button{
     top: 17px;
