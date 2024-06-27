@@ -17,7 +17,7 @@ body{
 
 }
 nav{
-  box-shadow: 0px 4px 10px rgb(0,0,0, 0.8);
+  box-shadow: 0px 4px 16px rgb(0,0,0, 0.8);
 
   /* padding-left: 10px; */
   display: flex;
@@ -46,6 +46,7 @@ nav button{
   text-decoration: underline;
   right: 30px;
   top: 20px;
+
   
   cursor: pointer;
 }
@@ -360,14 +361,23 @@ h1{
   }
   nav{
     height: 10vh;
-    border-radius: 55%5%;
-    margin-top: 10px;
+    border-radius: 31% 69% 41% 59% / 100% 0% 100% 0%  ;
+    /* border-radius: 55%5%; */
+    /* margin-top: 10px; */
     /* margin-left: 40px;
     margin-right: 40px; */
-    width: 410px;
+    /* width: 410px; */
+    /* background: linear-gradient(
+      to right, rgb(108, 108, 202),rgb(175, 99, 175), rgb(221, 10, 196)
+    ); */
+    /* background: linear-gradient(
+      to right, #0f4b54,#2e413c
+    ); */
+    color: black;
   }
   nav button{
-    transform: translateY(-6px);
+    transform: translatey(-6px);
+    transform: translatex(-20px);
     top: 22px;
   }
   .logo{
@@ -383,8 +393,8 @@ h1{
     width: 90%;
   }
   nav{
-    height: 10vh;
-    width: 380px;
+    height: 11vh;
+    /* width: 380px; */
   }
   nav button{
     top: 18px;
