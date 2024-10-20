@@ -8,6 +8,9 @@ let btn6 = document.getElementById('bt6')
 let btn7 = document.getElementById('bt7')
 let btn8 = document.getElementById('bt8')
 let btn9 = document.getElementById('bt9')
+let high = document.getElementById('high')
+let boks = document.querySelector('.boks')
+let cr = document.getElementById('cr')
 let btn10 = document.getElementById('bt10')
 let btn11 = document.getElementById('bt11')
 let btn12 = document.getElementById('bt12')
@@ -35,6 +38,11 @@ let bt13 = document.querySelectorAll('.bt13')
 const menu = document.getElementById('menu')
 const topb = document.getElementById('topb')
 const more = document.querySelector('.more')
+cr.addEventListener('click',()=>{
+  boks.style.display = 'none',
+  high.style.opacity = '1'
+  
+})
 more.addEventListener('click',()=>{
   
 let hide = document.querySelector('.hide')
@@ -46,7 +54,14 @@ let hide1 = hide.style
   hide1.display = 'none';
   more.innerHTML = 'More...'}
 } )
-
+function hig(){
+  high.style.opacity = '0.3'
+  boks.style.display = 'flex'
+  menu.style.display = 'none'
+  topb.innerText = ''
+  topb.appendChild(icon)
+  topb.classList.remove('ham')
+}
 ent.addEventListener('click', en1)
 function en1 (){
   
