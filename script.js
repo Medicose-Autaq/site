@@ -41,6 +41,7 @@ const more = document.querySelector('.more')
 cr.addEventListener('click',()=>{
   boks.style.display = 'none',
   high.style.opacity = '1'
+  topb.disabled = false
   
 })
 more.addEventListener('click',()=>{
@@ -58,6 +59,7 @@ function hig(){
   high.style.opacity = '0.3'
   boks.style.display = 'flex'
   menu.style.display = 'none'
+  topb.disabled = true
   topb.innerText = ''
   topb.appendChild(icon)
   topb.classList.remove('ham')
